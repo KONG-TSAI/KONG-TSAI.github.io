@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Resume(ZW&amp;EN)</title>
+    <link href="undefined2019/11/06/Resume(ZW&amp;EN)/"/>
+    <url>2019/11/06/Resume(ZW&amp;EN)/</url>
+    
+    <content type="html"><![CDATA[<p>###蔡胜东  (TSAI,SHENG-TUNG)</p><p>Email: <a href="mailto:kong317@outlook.com" target="_blank" rel="noopener">kong317@outlook.com</a></p><p>Tel:13606067747</p><p>From:台湾</p><ul><li><p>教育经历 </p><ul><li><p>电子科技大学 (2016.9-2020.6)</p><p> 软件工程专业本科生</p></li></ul></li></ul><ul><li><p>荣誉奖励</p><ul><li><p>港澳台奖学金</p><p>2016-2017学年, 2017-2018学年</p></li></ul></li></ul><ul><li><p>专业技能</p><ul><li><p>数据结构</p><ul><li>语言        <ul><li>熟悉／擅长使用  C++ / C</li><li>了解 Python  Matlab  Java</li></ul></li></ul></li><li><p>熟悉UNIX操作系统</p></li><li><p>熟悉UNIX网络编程</p></li><li><p>了解Spring Boot框架</p></li><li><p>了解SQL</p></li><li><p>了解NOSQL</p></li></ul></li></ul><ul><li><p>项目经历</p><ul><li><p>参与十力教育app开发项目组的开发</p><p>在2018年12月到2019年1月在成都十力教育科技有限公司实习</p><p>该app是一个婚纱商城,主要提供旅拍和婚纱礼服嫁衣的租借与购买</p><ul><li>负责使用spring boot框架对项目进行整体构建 构建项目与项目之间的依赖关系</li><li>业务逻辑模块 对我们的业务进行实时的操作,比如对购买或者租借的衣服数量在数据库中进行相应的变化;对衣服的库存进行查询;对衣服的款式进行搜索等</li><li>微信支付宝支付模块 通过在支付宝和微信的商家密钥进行付款的操作</li><li>快递单号查询模块 通过给定的快递单号进行货物的查询</li></ul></li></ul></li></ul><h3 id="TSAI-SHENG-TUNG-蔡胜东"><a href="#TSAI-SHENG-TUNG-蔡胜东" class="headerlink" title="TSAI,SHENG-TUNG (蔡胜东)"></a>TSAI,SHENG-TUNG (蔡胜东)</h3><p>Email:<a href="mailto:kong317@outlook.com" target="_blank" rel="noopener">kong317@outlook.com</a></p><p>Tel;13606067747</p><p>From:Taiwan</p><ul><li><p>Education</p><ul><li><p>University of Electronic Science and Technology of China</p><p>09/2016 - 06/2020, Bachelor of Software Engineering</p></li></ul></li></ul><ul><li><p>Honor</p><ul><li><p>Hong Kong, Macao and Taiwan scholarship</p><p>Academic year 2016-2017 &amp; 2017-2018</p><p>​    </p></li></ul></li><li><p>Skill</p><ul><li>Familiar with data structs</li><li>Language<ul><li>Familiar with Java C++ \ C</li><li>Know about Python Matlab</li></ul></li><li>Familiar with Operating system of UNIX</li><li>Familiar with Network progarmming of UNIX</li><li>Know about Spring Boot framework</li><li>Know about SQL</li><li>Know about NOSQL</li></ul></li></ul><ul><li><p>Project</p><ul><li><p>Participated in the development of shili education app development project team</p><p>From December 2018 to January 2019, I worked as an intern in chengdu shili education technology company</p><p>This app is a wedding dress mall, which mainly provides travel photography and wedding dress rental and purchase</p><ul><li><p>responsible for the overall construction of the project using the spring boot framework to build dependencies between projects</p></li><li><p>the business logic module conducts real-time operations on our business, such as making corresponding changes in the number of clothes purchased or rented in the database; Check the inventory of clothes; Search for clothing styles, etc</p></li><li><p>WeChat alipay payment module conducts the payment operation through the merchant key of alipay and WeChat</p></li><li><p>express waybill number query module can query the goods through the given express waybill number</p></li></ul></li></ul></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="undefined2019/11/05/hello-world/"/>
+    <url>2019/11/05/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
