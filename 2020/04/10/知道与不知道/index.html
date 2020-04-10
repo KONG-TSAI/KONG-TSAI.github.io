@@ -15,7 +15,7 @@
   <meta name="description" content="">
   <meta name="author" content="KONG">
   <meta name="keywords" content="">
-  <title>Page not found &lt; 黑白說</title>
+  <title>知道与不知道 &lt; 黑白說</title>
 
   <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css"  >
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css"  >
@@ -36,7 +36,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -88,7 +88,7 @@
 </nav>
 
     <div class="view intro-2" id="background"
-         style="background: url('/img/404_sky.JPG')no-repeat center center;
+         style="background: url('/img/post_sky.JPG')no-repeat center center;
            background-size: cover;
            background-attachment: fixed;">
       <div class="full-bg-img">
@@ -98,6 +98,41 @@
               
             </span>
 
+            
+              <br>
+              
+                <p class="mt-3">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+                  Friday, April 10th 2020, 10:44 am
+                </p>
+              
+
+              <p>
+                
+                  
+                  &nbsp;<i class="far fa-chart-bar"></i>
+                  <span class="post-count">
+                    121 字
+                  </span>&nbsp;
+                
+
+                
+                  
+                  &nbsp;<i class="far fa-clock"></i>
+                  <span class="post-count">
+                      1 分钟
+                  </span>&nbsp;
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  &nbsp;<i class="far fa-eye" aria-hidden="true"></i>&nbsp;
+                  <span id="busuanzi_container_page_pv">
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>&nbsp;
+                
+              </p>
             
           </div>
 
@@ -111,13 +146,47 @@
     
       
 
-<script>
-  function redirect() {
-    location.href = "/";
-  }
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <p>He who knows not and knows not that he knows not, is a fool … shun him. He who knows not and knows that he knows not, is ignorant … teach him. He who knows and knows not that he knows, is asleep … wake him. He who knows and knows that he knows, is a wise man … follow him.</p>
+<p>不知道自己不知道的人，是愚蠢的，回避他。 知道自己不知道的人，是无知的，教会他。 不知道自己知道的人，是沉睡的，唤醒他。 知道自己知道的人，是智慧的，跟随他。</p>
 
-  //setTimeout(redirect, 3000)
-</script>
+            <hr>
+          </div>
+          <br>
+          <div>
+            <p>
+            
+            
+            </p>
+            
+              <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-lg-block col-lg-2 toc-container">
+      
+    </div>
+  </div>
+</div>
+
+<!-- custom -->
+
+
+<!-- Comments -->
+<div class="col-lg-7 mx-auto nopadding-md">
+  <div class="container comments mx-auto" id="comments">
+    
+  </div>
+</div>
+
     
   </main>
 
@@ -192,6 +261,9 @@
 
 
 
+  
+  <script src="/js/post.js" ></script>
+
 
 
   <script src="/lib/smooth-scroll/smooth-scroll.min.js" ></script>
@@ -232,7 +304,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Page Not Found&nbsp;",
+        "知道与不知道&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
