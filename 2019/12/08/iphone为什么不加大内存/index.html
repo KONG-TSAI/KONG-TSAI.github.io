@@ -153,9 +153,7 @@
       <div class="py-5 z-depth-3" id="board">
         <div class="post-content mx-auto" id="post">
           <div class="markdown-body">
-            <p>iphone为什么不加大内存</p>
-<hr>
-<p>这实际上是一个技术问题，涉及到iOS与安卓两个操作系统的设计原理。</p>
+            <h2 id="iphone为什么不加大内存"><a href="#iphone为什么不加大内存" class="headerlink" title="iphone为什么不加大内存"></a>iphone为什么不加大内存</h2><p>这实际上是一个技术问题，涉及到iOS与安卓两个操作系统的设计原理。</p>
 <p>首先，安卓机上大内存，这是个中国特色，也就是说只有中国国内销售的安卓机才会上这么大的内存，海外版的安卓机主流内存基本和苹果差不了太多。图我就不贴了，大家可以自己去查一下，华为的P30，海外版的128G硬盘的型号只配4G或6G内存，而中国版的P30，64G硬盘的型号却配上了8G内存；海外版的安卓机，128G硬盘配4G内存比比皆是，简直不要太多，但在国内，你几乎找不到一款128G硬盘配4G内存的安卓机。这样乍一看好像我们得了便宜，可其实，这是国产安卓生态的无奈之举。</p>
 <p>先说国内安卓机为什么上大内存吧。举一个例子，比如我们常用的微信这个APP，首先你打开微信登录账号后，你手机上的微信APP就会和腾讯的服务器保持一个长久的连接，你发一条消息给你朋友，这条消息不是直接从你的手机上发到他的手机上的，而是你的手机将消息发给了腾讯的服务器，然后腾讯的服务器再发给你朋友。这个时候就有一个问题，如果你朋友手机上的微信APP处在关闭状态下，那么即使腾讯服务器把消息发过去了，他也收不到，因为他的手机上微信APP已经完全关闭了，已经和腾讯服务器断开连接了，只有当他再次打开微信的时候，连接恢复，他才能收到那条信息。也就是说，想要及时收到消息，那么微信这个APP就不能完全关闭，需要留下一些线程在后台一直保持运行，一直和腾讯的服务器保持接连，这样一旦收到消息，系统才能及时启动消息机制提醒你。</p>
 <p>所以，国内安卓系统下，每一个APP，都需要在后台(也就是内存里)留下一些线程随时准备接收外来信息，也就是说你刚打开手机还啥都没干，你手机上所有APP的一部分线程已经悄悄启动，进驻内存，而这些后台启动的线程是无法关闭的，因为是合法的，关闭的话用户就无法及时收到消息。另外，不要小看这些后台线程的数量，一个APP在后台里留十几二十MB确实不多，但100个APP(64G硬盘的手机就能装100个APP)加起来就要吃掉将近2G的内存！</p>
@@ -218,7 +216,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -227,7 +225,7 @@
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
           <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+                 for="local-search-input">keyword</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
